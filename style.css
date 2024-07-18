@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:Helvetica, sans-serif;
+}
+.logo{
+    margin-left: 50px;
+    height: 30px;
+
+
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.head{
+    margin:2px 2x;
+    height: 75px;
+    width:100%;
+    border:1px solid lightgrey;
+
+}
+.log-sign{
+   display:flex;
+   gap:20px;
+   padding-right:30px;
+}
+.log-sign a{
+
+    text-decoration: none;
+    color:black;
+}
+.card{
+    height:250px;
+    width:300px;
+    border:1px solid lightgrey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+.product-img{
+    margin-top: 30px;
+    width:50%;
+    height:45%;
+    border-radius: 15px;
+    align-self: center;
+}
+.details{
+    padding:10px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.ratings-good{
+    text-align: center;
+    padding:2px;
+    background-color: green;
+    color:white;
+    border-radius:15px;
+}
+.product-list{
+    margin:50px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.srch-bar{
+    width:35%;
+    display:flex;
+}
+.ratings{
+    text-align: center;
+    padding:2px;
+    background-color: green;
+    color:white;
+    border-radius:15px;
+}
+.ratings-moderate{
+    text-align: center;
+    padding:2px;
+    background-color: orange;
+    color:white;
+    border-radius:15px;
+}
+.ratings-worst{
+    text-align: center;
+    padding:2px;
+    background-color:red;
+    color:white;
+    border-radius:15px;
+}
+footer{
+    text-align: center;
+    background-color: beige;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    
+}
+
